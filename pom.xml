@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.addicticks</groupId>
     <artifactId>Preferences2Go</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Preferences 2 Go</name>
     
@@ -50,7 +50,7 @@
         <connection>scm:git:https://github.com/Addicticks/Preferences2Go.git</connection>
         <developerConnection>scm:git:https://github.com/Addicticks/Preferences2Go.git</developerConnection>
         <url>https://github.com/Addicticks/Preferences2Go.git</url>
-      <tag>Preferences2Go-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>    
 
     
