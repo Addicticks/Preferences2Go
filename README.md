@@ -54,3 +54,19 @@ then simply change like this:
 
     java -classpath $CP $SYSPROP myapp.StartUp
 
+
+### Thomson Reuters RFA Java users
+
+For users of the Thomson Reuters RFA Java API there's a simple way to
+generate the config file if you already have your preference values
+stored in the classic Preferences backing store.
+
+From the SDK's `Tools` folder execute either `config_editor.bat` (if
+on Windows) or `config_editor.ksh` (if on Linux/Solaris).
+
+From within the Configuration Editor export the values as follows:
+
+![RFA Configuration Editor](https://cloud.githubusercontent.com/assets/15076120/16362918/174f4cdc-3bbb-11e6-808e-2783459ea7df.png)
+
+The file that was created as a result of this can then be used
+as `pref2go.xmlFile`. 
