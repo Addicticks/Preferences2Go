@@ -18,7 +18,7 @@ the underlying application.
 ### Configuration
 
 
-Download the `pref2go.jar` from the [releases](releases) section of GitHub.
+Download the `pref2go.jar` from the [releases](https://github.com/Addicticks/Preferences2Go/releases) section of GitHub.
 
 Now make sure that `pref2go.jar` is on your classpath.
 
