@@ -28,7 +28,7 @@ On startup of your application you'll then need to set one or more of the system
 | System Property | Description 
 | --- | --- 
 | java.util.prefs.PreferencesFactory | Mandatory.  Must be set to `com.addicticks.preferences2go.TemporaryPreferencesFactory`
-| pref2go.xmlFile | Optional. If set it's assumed to be the name of a Java Preferences XML file conforming to the DTD as explained in the Javadoc for [Preferences](http://docs.oracle.com/javase/8/docs/api/java/util/prefs/Preferences.html). The content of this XML file will be loaded on startup.
+| pref2go.xmlFile | Optional. If set it's assumed to be the name of a Java Preferences XML file conforming to the DTD as explained in the Javadoc for [Preferences](http://docs.oracle.com/javase/8/docs/api/java/util/prefs/Preferences.html). The content of this XML file will be loaded on startup. The file will only ever be read, never written to.
 | pref2go.printPref | Optional. If set to "true" the contents of the loaded preferences are pretty printed and logged to standard logger (level INFO) on startup. This only has effect if property `pref2go.xmlFile` is also set.
 
 
@@ -70,3 +70,11 @@ From within the Configuration Editor export the values as follows:
 
 The file that was created as a result of this can then be used
 as `pref2go.xmlFile`. 
+
+
+### Restrictions
+
+Unlike standard Preferences any changes made to the preferences
+by the application will not be persisted. In other words: there's no attempt to
+to write to `pref2go.xmlFile` or anywhere else.
+
