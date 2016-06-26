@@ -18,7 +18,9 @@ the underlying application.
 ### Configuration
 
 
-First you need to make sure that `pref2go.jar` is on your classpath.
+Download the `pref2go.jar` from the [releases](releases) section of GitHub.
+
+Now make sure that `pref2go.jar` is on your classpath.
 
 On startup of your application you'll then need to set one or more of the system properties below:
 
