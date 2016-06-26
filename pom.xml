@@ -25,4 +25,20 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <jar.finalName>pref2go</jar.finalName>
     </properties>
+    
+    <licenses>        
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    
+    <scm>
+        <connection>scm:git:https://github.com/Addicticks/Preferences2Go.git</connection>
+        <developerConnection>scm:git:https://github.com/Addicticks/Preferences2Go.git</developerConnection>
+        <url>https://github.com/Addicticks/Preferences2Go.git</url>
+    </scm>    
+
+    
+    
 </project>
