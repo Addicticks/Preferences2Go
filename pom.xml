@@ -27,6 +27,18 @@
         <project.scm.id>github.com</project.scm.id>    
     </properties>
     
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.3</version>                
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    
     <licenses>        
         <license>
             <name>Apache License, Version 2.0</name>
