@@ -76,5 +76,5 @@ as `pref2go.xmlFile`.
 
 Unlike standard Preferences any changes made to the preferences
 by the application will not be persisted. In other words: there's no attempt to
-to write to `pref2go.xmlFile` or anywhere else.
+to write to file pointed to by `pref2go.xmlFile` or anywhere else.
 
